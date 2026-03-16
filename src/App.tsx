@@ -7,6 +7,8 @@ import MenuPage from "./pages/menuPage";
 import TestimonialsPage from "./pages/testimonialsPage";
 import ContactsPage from "./pages/contactsPage";
 import ReservationPage from "./pages/reservationPage";
+import SpecialsPage from "./pages/specialsPage";
+import MenuTypePage from "./pages/menuTypePage";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,12 +25,20 @@ function App() {
           element: <MenuPage />,
         },
         {
+          path: "/menu/:menuId",
+          element: <MenuTypePage />,
+        },
+        {
           path: "/testimonials",
           element: <TestimonialsPage />,
         },
         {
           path: "/reservation",
           element: <ReservationPage />,
+        },
+        {
+          path: "/specials",
+          element: <SpecialsPage />,
         },
         {
           path: "/contacts",

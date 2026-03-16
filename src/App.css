@@ -1,6 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-primary: #eed0ce;
-  --color-secondary: #fef2f2;
+.hero-hr hr {
+  border: 2px solid white;
+  width: 200px;
+  border-radius: 6px;
+  margin: 0px auto;
 }
