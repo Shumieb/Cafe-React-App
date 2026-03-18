@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import SpecialCard from "./specialCard";
 import { FaLink } from "react-icons/fa6";
 
-function HomeSpecials() {
+function SpecialsList() {
   return (
     <section className="bg-secondary py-6 px-2 mt-12 ">
       <div className="w-[90%] mx-auto grid grid-cols-2 gap-4">
@@ -39,4 +39,4 @@ function HomeSpecials() {
   );
 }
 
-export default HomeSpecials;
+export default SpecialsList;

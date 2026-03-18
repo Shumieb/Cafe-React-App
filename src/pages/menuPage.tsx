@@ -1,5 +1,11 @@
+import MenusHero from "../components/menusHero";
+
 function MenuPage() {
-  return <div>MenuPage</div>;
+  return (
+    <main>
+      <MenusHero headerTxt="Menu" />
+    </main>
+  );
 }
 
 export default MenuPage;
