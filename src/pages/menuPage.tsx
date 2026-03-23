@@ -8,14 +8,7 @@ function MenuPage() {
   return (
     <main>
       <MenusHero headerTxt="Menu" />
-      <div className="mb-6 mt-12 w-[90%] mx-auto">
-        <div className="-z-2 overflow-hidden">
-          <img
-            src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg"
-            alt="special_img"
-            className="w-[100%] h-50 object-cover rounded-md -mt-2 -mb-3 -z-4"
-          />
-        </div>
+      <div className="mb-6 mt-12 w-[90%] mx-auto rounded-md">
         <MenuList />
         <div className="-z-2 overflow-hidden">
           <img
