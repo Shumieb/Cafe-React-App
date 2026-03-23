@@ -18,10 +18,10 @@ function LeaveTestimonialForm() {
 
   return (
     <section className="ps-6">
-      <h2 className="text-2xl uppercase text-gray-700 mb-3">
+      <h2 className="text-2xl uppercase text-gray-700 mb-4 text-center mt-2">
         Leave a Testimonial
       </h2>
-      <form onSubmit={(e) => handleFormSubmit(e)}>
+      <form onSubmit={(e) => handleFormSubmit(e)} className="mb-4">
         <div className="mb-4">
           <label htmlFor="name" className="text-xl pe-1 text-gray-700 block">
             Name:
