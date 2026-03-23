@@ -1,14 +1,14 @@
 import { FaLink } from "react-icons/fa6";
-import MenusHero from "../components/menusHero";
 import SpecialsList from "../components/specialsList";
 import TestimonialList from "../components/testimonialList";
 import { Link } from "react-router";
 import FounderMessageSect from "../components/founderMessageSect";
+import PagesHero from "../components/PagesHero";
 
 function SpecialsPage() {
   return (
     <main>
-      <MenusHero headerTxt="Specials" />
+      <PagesHero headerTxt="Specials" />
       <div className="mb-18">
         <SpecialsList />
       </div>

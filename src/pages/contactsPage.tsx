@@ -1,5 +1,11 @@
+import PagesHero from "../components/PagesHero";
+
 function ContactsPage() {
-  return <div>ContactsPage</div>;
+  return (
+    <main>
+      <PagesHero headerTxt="Contact Us" />
+    </main>
+  );
 }
 
 export default ContactsPage;

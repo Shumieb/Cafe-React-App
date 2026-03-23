@@ -1,13 +1,13 @@
 import { FaLink } from "react-icons/fa6";
-import MenusHero from "../components/menusHero";
 import { Link } from "react-router";
 import TestimonialList from "../components/testimonialList";
 import MenuList from "../components/menuList";
+import PagesHero from "../components/PagesHero";
 
 function MenuPage() {
   return (
     <main>
-      <MenusHero headerTxt="Menu" />
+      <PagesHero headerTxt="Menu" />
       <div className="mb-6 mt-12 w-[90%] mx-auto rounded-md">
         <MenuList />
         <div className="-z-2 overflow-hidden">

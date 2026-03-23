@@ -1,5 +1,11 @@
+import PagesHero from "../components/PagesHero";
+
 function AboutPage() {
-  return <div>AboutPage</div>;
+  return (
+    <main>
+      <PagesHero headerTxt="About Us" />
+    </main>
+  );
 }
 
 export default AboutPage;

@@ -2,7 +2,7 @@ interface PropTypes {
   headerTxt: string;
 }
 
-function MenusHero({ headerTxt }: PropTypes) {
+function PagesHero({ headerTxt }: PropTypes) {
   return (
     <section className="mt-6">
       <div className="bg-primary py-8 mx-auto text-center w-[80%] rounded">
@@ -12,4 +12,4 @@ function MenusHero({ headerTxt }: PropTypes) {
   );
 }
 
-export default MenusHero;
+export default PagesHero;

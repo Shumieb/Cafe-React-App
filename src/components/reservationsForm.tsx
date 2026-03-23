@@ -52,7 +52,7 @@ function ReservationsForm() {
           </label>
           <p className="text-gray-600 text-lg italic w-[90%]">
             You can only make a reservation of 2-6 people. If you would like to
-            make a reservation for more than 6 people contact the Cafe.
+            make a reservation for more than 6 people, please contact the Cafe.
           </p>
           <input
             type="number"
