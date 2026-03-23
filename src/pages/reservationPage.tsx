@@ -10,11 +10,9 @@ function ReservationPage() {
   return (
     <main>
       <PagesHero headerTxt="Reservations" />
-      <section className="bg-secondary py-6 px-4 mt-12 grid grid-cols-2 gap-4">
-        <div>
+      <section className="bg-secondary py-6 px-4 mt-12">
+        <div className="grid grid-cols-2 gap-4 w-[90%] mx-auto">
           <ReservationsForm />
-        </div>
-        <div>
           <OpeningTimes />
         </div>
       </section>
