@@ -4,6 +4,7 @@ import OpeningTimes from "../components/openingTimes";
 import ReservationsForm from "../components/reservationsForm";
 import TestimonialList from "../components/testimonialList";
 import { Link } from "react-router";
+import FounderMessageSect from "../components/founderMessageSect";
 
 function ReservationPage() {
   return (
@@ -17,8 +18,10 @@ function ReservationPage() {
           <OpeningTimes />
         </div>
       </section>
-      <div></div>
-      <div className="py-2 mt-6">
+      <div className="mt-13 mb-10">
+        <FounderMessageSect />
+      </div>
+      <div className="py-2">
         <div className="flex justify-center align-center mb-4">
           <p className="pt-3 px-2 text-xl text-gray-400">
             <FaLink />

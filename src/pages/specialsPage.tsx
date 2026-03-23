@@ -3,6 +3,7 @@ import MenusHero from "../components/menusHero";
 import SpecialsList from "../components/specialsList";
 import TestimonialList from "../components/testimonialList";
 import { Link } from "react-router";
+import FounderMessageSect from "../components/founderMessageSect";
 
 function SpecialsPage() {
   return (
@@ -10,6 +11,9 @@ function SpecialsPage() {
       <MenusHero headerTxt="Specials" />
       <div className="mb-18">
         <SpecialsList />
+      </div>
+      <div className="mt-13 mb-10">
+        <FounderMessageSect />
       </div>
       <div className="py-2">
         <div className="flex justify-center align-center mb-4">
