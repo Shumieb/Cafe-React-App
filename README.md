@@ -1,6 +1,6 @@
 ### Cafe Web App
 
-## Built using TypeScript, React, Zustand, TypeScript
+## Built using TypeScript, React, Zustand
 
 ## Home Page
 
